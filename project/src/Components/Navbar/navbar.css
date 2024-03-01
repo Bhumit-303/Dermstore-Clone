@@ -236,6 +236,13 @@ ul {
 	/* margin: auto; */
 	/* margin-right: 35px; */
 }
+
+#navbar {
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
 #lower_navbar {
 	display: flex;
 	margin-top: 30px;

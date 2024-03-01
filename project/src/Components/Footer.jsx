@@ -48,6 +48,11 @@ export const Footer = () => {
                             <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z" />
                         </svg>
                     </span>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 64 64" >
+                            <path d="M48,8H16c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8h32c4.418,0,8-3.582,8-8V16C56,11.582,52.418,8,48,8z M50,27 c-3.964,0-6.885-1.09-9-2.695V38.5C41,44.841,35.841,50,29.5,50S18,44.841,18,38.5S23.159,27,29.5,27h2v5h-2 c-3.584,0-6.5,2.916-6.5,6.5s2.916,6.5,6.5,6.5s6.5-2.916,6.5-6.5V14h5c0.018,1.323,0.533,8,9,8V27z"></path>
+                        </svg>
+                    </span>
                         
                         {/* <hr width="100%" /> */}
                     </div>
@@ -59,8 +64,8 @@ export const Footer = () => {
             <section>
                 <hr />
                 <div id="div3">
+                    <div className="left-child">
                         <hr />
-
                     <p id="para3">Customer Service</p>
                     <ul>
                         <li><a href="#">Help Center / FAQs</a></li>
@@ -69,42 +74,44 @@ export const Footer = () => {
                         <li><a href="#">Order Status</a></li>
                         <li><a href="#">Cookie Settings</a></li>
                     </ul>
+                    </div>
 
                 </div>
                 <div id="div4">
                     <div className="child">
                         <hr />
-                        <p id="para3">Customer Service</p>
+                        <p id="para3">My Account</p>
                         <ul>
-                            <li><a href="#">Help Center / FAQs</a></li>
-                            <li><a href="#">Returns</a></li>
-                            <li><a href="#">Shipping Information</a></li>
-                            <li><a href="#">Order Status</a></li>
-                            <li><a href="#">Cookie Settings</a></li>
+                            <li><a href="#">Manage my Auto-<br></br>Replenishment</a></li>
+                            <li><a href="#">My Reward</a></li>
+                            <li><a href="#">My Favorites</a></li>
+                            <li><a href="#">Refer a Friens</a></li>
+                            <li><a href="#">Order Hostory</a></li>
+                        </ul>
+
+                    </div>
+                    <div className="child">
+                        <hr/>
+                        <p id="para3">Company</p>
+                        <ul>
+                            <li><a href="#">Affiliate Program</a></li>
+                            <li><a href="#">Key Workers Discount</a></li>
+                            <li><a href="#">About US</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">What is Klarna?</a></li>
                         </ul>
 
                     </div>
                     <div className="child">
                         <hr />
-                        <p id="para3">Customer Service</p>
+                        <p id="para3">Legal</p>
                         <ul>
-                            <li><a href="#">Help Center / FAQs</a></li>
-                            <li><a href="#">Returns</a></li>
-                            <li><a href="#">Shipping Information</a></li>
-                            <li><a href="#">Order Status</a></li>
-                            <li><a href="#">Cookie Settings</a></li>
-                        </ul>
-
-                    </div>
-                    <div className="child">
-                        <hr />
-                        <p id="para3">Customer Service</p>
-                        <ul>
-                            <li><a href="#">Help Center / FAQs</a></li>
-                            <li><a href="#">Returns</a></li>
-                            <li><a href="#">Shipping Information</a></li>
-                            <li><a href="#">Order Status</a></li>
-                            <li><a href="#">Cookie Settings</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Site Wide Exclusion</a></li>
+                            <li><a href="#">Terms & Condition</a></li>
+                            <li><a href="#">Modern Slavery Statement</a></li>
+                            <li><a href="#">Product Recall</a></li>
+                            <li><a href="#">Accessibility</a></li>
                         </ul>
 
                     </div>

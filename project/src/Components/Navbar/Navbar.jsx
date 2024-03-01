@@ -211,6 +211,12 @@ export default function Navbar() {
 				</div>
 			</div>
 			<nav id="lower_navbar">
+			    <div id="drop14">
+					<Link to="" className="link">
+						Beauty Refresh Sale
+					</Link>
+				</div>
+
 				<div
 					id="drop1"
 					onMouseEnter={() => {

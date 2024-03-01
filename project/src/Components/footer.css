@@ -1,15 +1,17 @@
 #main {
 	margin-top: 10%;
 	display: flex;
-	margin-left: 5%;
+	margin-left: 10%;
 	cursor: pointer;
+	padding: 5%;
 }
 .btn-dar {
-	width: 20%;
-	height: 30px;
+	width: 25%;
 	background-color: black;
 	color: white;
 	cursor: pointer;
+	border: none;
+	padding: 15px ;
 }
 #div6 {
 	/* border: 1px solid gray; */
@@ -95,6 +97,9 @@ ul > li {
 }
 #main3 {
 	display: flex;
+	padding: 2%;
+	width: 90%;
+	margin: auto;
 }
 #img1 {
 	width: 64px;
@@ -135,4 +140,17 @@ div > img {
 }
 h2 {
 	font-size: 15px;
+}
+
+.child {
+	line-height:  25px;
+	margin-right: 10%;
+	width: 20%;
+}
+
+.left-child{
+	line-height:  25px;
+	margin-right: 10%;
+	width: auto;
+	margin-left: 10%;
 }
