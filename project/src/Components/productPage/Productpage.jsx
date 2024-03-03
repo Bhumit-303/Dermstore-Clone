@@ -84,7 +84,6 @@ export const ProductPage = () => {
 			d.json()
 		);
 		setItems(data);
-		//  console.log(data);
 	}
 
 	const Sort = (e) => {
