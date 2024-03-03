@@ -105,29 +105,58 @@ export const Middle = ({ slides}) => {
               {index === state && (<div  className='set_all'><div>
                <img src= {e.image1} alt="" className='third_image'/>
                <p>{e.title1}</p>
-               <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+               <span>
+               <i className="fa-solid fa-star"></i>
+               <i className="fa-solid fa-star"></i>
+               <i className="fa-solid fa-star"></i>
+               <i className="fa-solid fa-star"></i>
+               <i className="fa-solid fa-star"></i>
+               </span>
                <p>{e.price1}</p><button className='button_1'>QUICK BUY</button>
                
                </div>
                <div>
                <img src= {e.image2} alt="" className='third_image'/>
                <p>{e.title2}</p>
-               <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+               <span>
+               <i className="fa-solid fa-star"></i>
+               <i className="fa-solid fa-star"></i>
+               <i className="fa-solid fa-star"></i>
+               <i className="fa-solid fa-star"></i>
+               <i className="fa-solid fa-star"></i>
+               </span>
                <p>{e.price2}</p><button className='button_1'>QUICK BUY</button></div>
                <div>
                <img src= {e.image3} alt="" className='third_image'/>
                <p>{e.title3}</p>
-               <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+               <span>
+               <i className="fa-solid fa-star"></i>
+               <i className="fa-solid fa-star"></i>
+               <i className="fa-solid fa-star"></i>
+               <i className="fa-solid fa-star"></i>
+               <i className="fa-solid fa-star"></i>
+               </span>
                <p>{e.price3}</p><button className='button_1'>QUICK BUY</button></div>
                <div>
                <img src= {e.image4} alt="" className='third_image'/>
                <p>{e.title4}</p>
-               <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+               <span>
+               <i className="fa-solid fa-star"></i>
+               <i className="fa-solid fa-star"></i>
+               <i className="fa-solid fa-star"></i>
+               <i className="fa-solid fa-star"></i>
+               <i className="fa-solid fa-star"></i>
+               </span>
                <p>{e.price4}</p><button className='button_4S'>QUICK BUY</button></div>
                <div>
                <img src= {e.image5} alt="" className='third_image'/>
                <p>{e.title5}</p>
-               <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+               <span>
+               <i className="fa-solid fa-star"></i>
+               <i className="fa-solid fa-star"></i>
+               <i className="fa-solid fa-star"></i>
+               <i className="fa-solid fa-star"></i>
+               <i className="fa-solid fa-star"></i></span>
                <p>{e.price5}</p>
                <button  className='button_4S'>QUICK BUY</button>
                </div></div>)}
