@@ -48,7 +48,7 @@ export const Middle = ({ slides}) => {
       <p className='pars'>Save on top skin care formulas rooted in science and created by dermatologists. Plus, receive a Skinmedica Vitamin C+E Complex 0.25 oz ($29 value) when you spend $160 or more on the brand.</p>
       <div className='extra-low'>
       <img src="https://static.thcdn.com/images/medium/webp/widgets/208-us/10/0428-STDCRE-35244-DS-MB-Dermstore-May-Photography-THG0034748-PRIORITY-SHOTS-16-HP_LPSQ_BANNER_676x556-041110.jpg" alt="" style={{
-          "margin-left" : "50px"
+          "marginLeft" : "50px"
       }} />
       <div className='second_extra_low'>
           
@@ -70,8 +70,8 @@ export const Middle = ({ slides}) => {
      
       </div>
       <div style={{
-              "margin-top" : "5%",
-              "margin-left" : "45%"
+              "marginTop" : "5%",
+              "marginLeft" : "45%"
 
           }}>
           <span style={{
@@ -91,10 +91,10 @@ export const Middle = ({ slides}) => {
           <button>FACE SERUMS</button>
       </div>
       <div style={{
-          "margin-top" : "5%"
+          "marginTop" : "5%"
       }}>
       <span style={{
-          "margin-left": "45%",
+          "marginLeft": "45%",
           "fontSize" : "25px"
       }}>Best Sellers</span>
        <FaArrowAltCircleLeft className='third_left-arrow' onClick={prev} />
@@ -136,11 +136,11 @@ export const Middle = ({ slides}) => {
        )
       })}
     <div style={{
-          "margin-top" : "15%",
+          "marginTop" : "15%",
           
       }}>
       <span style={{
-          "margin-left": "45%",
+          "marginLeft": "45%",
           "fontSize" : "25px"
       }}>Now Trending</span>
              <FaArrowAltCircleLeft className='third_left-arrow' onClick={prev} />
@@ -176,11 +176,11 @@ export const Middle = ({ slides}) => {
           <img src="https://static.thcdn.com/images/large/webp/widgets/208-us/40/original-0429-STDCRE-35241-CM-DS-Disrupter-Banner-SCF-1640x244--022640.jpg" alt="" />
       </div>
       <div  style={{
-          "margin-top" : "5%",
+          "marginTop" : "5%",
           
       }}>
       <span style={{
-          "margin-left": "45%",
+          "marginLeft": "45%",
           "fontSize" : "25px"
       }}>Featured Brands</span>
       

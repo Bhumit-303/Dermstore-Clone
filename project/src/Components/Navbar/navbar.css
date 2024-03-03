@@ -190,7 +190,15 @@ ul {
 }
 .emptyDiv {
 	background-color: #f2f2f2;
-	height: 33px;
+	height: 35px;
+	text-align: right;
+}
+#emptybtn{
+	padding: 5px 20px;
+	border: none;
+	margin-right: 100px;
+	margin-top: 5px;
+	/* margin: auto; */
 }
 .hr {
 	border-bottom: 1px solid lightgrey;
@@ -238,20 +246,25 @@ ul {
 }
 
 #navbar {
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	text-align: center;
+	/* position: sticky;
+    top: 0;
+    z-index: 1000;  */
 }
 
 #lower_navbar {
 	display: flex;
-	margin-top: 30px;
-
-	width: 85%;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	margin-left: 30px;
-	align-items: center;
+    margin-top: 30px;
+    width: 85%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    position: sticky;
+    top: 80px;
+    z-index: 1000;
 	/* border-top: 1px solid red; */
 }
 #drop1 {
@@ -502,15 +515,21 @@ ul {
 
 #upper_navbar {
 	display: flex;
-	justify-content: space-around;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    background-color: white;
+    padding: 1.5%;
+	width: 95%;
+	margin: auto;
 	/* border-top: 1px solid lightgrey; */
-	padding: 1.5%;
 }
 #searchbar {
 	margin-left: 5%;
 	display: flex;
 	height: 40px;
-	width: 70%;
+	width: 80%;
 	/* border:1px solid black; */
 }
 #logos {
@@ -542,7 +561,7 @@ ul {
 	outline: 0.5px solid black;
 }
 #search_btn {
-	margin-left: -100%;
+	margin-left: -80%;
 	background: transparent;
 	/* background-color: white; */
 	border: none;

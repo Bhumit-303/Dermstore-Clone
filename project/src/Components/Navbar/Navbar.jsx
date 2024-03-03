@@ -13,6 +13,7 @@ import dropTwelveData from "../utils/dropdownTwelve.json";
 import dropLoginData from "../utils/dropdownLogin.json";
 import { useContext } from "react";
 import { AuthContext } from "../Context/AuthContextProvider";
+// import { products } from "../cart/products";
 
 export default function Navbar() {
 	const [dropdown1, setDropdown1] = useState(false);
@@ -25,12 +26,27 @@ export default function Navbar() {
 	const [dropdown9, setDropdown9] = useState(false);
 	const [dropdown12, setDropdown12] = useState(false);
 	const [dropdownLogin, setDropdownLogin] = useState(false);
+	const [searchQuery, setSearchQuery] = useState("");
+	// const [filteredProducts, setFilteredProducts] = useState([]);
 
 	const { isAuth } = useContext(AuthContext);
+	
+	
+
+	const handleSearch = () => {
+		console.log("Search Query:", searchQuery);
+        // const filtered = products.filter(product =>
+        //     product.title.toLowerCase().includes(searchQuery.toLowerCase())
+        // );
+        // setFilteredProducts(filtered);
+    };
+	  
 
 	return (
 		<div id="navbar">
-			<div className="emptyDiv"></div>
+			<div className="emptyDiv">
+			<button id="emptybtn">us-USD</button>
+			</div>
 			<div id="upper_navbar">
 				<div id="inside_upper_navbar">
 					<div id="navbar1">
@@ -56,34 +72,49 @@ export default function Navbar() {
 							</div>
 						</Link>
 					</div>
+
+
+
+
 					<div id="searchbar">
-						<input
-							type="text"
-							placeholder="Search for a product or brand..."
-							id="inputsearch"
-						/>
-						<div>
-							<button id="search_btn">
-								<svg
-									width="22"
-									height="22"
-									border="none"
-									viewBox="0 0 24 24"
-									stroke="black"
-									fill="white">
-									<title>Search</title>
-									<path
-										d="M22 22l-6.344-6.344M10 18a8 8 0 100-16 8 8 0 000 16z"
-										stroke="inherit"
-										fill="white"
-										strokeWidth="2"
-										strokeMiterlimit="0"
-										strokeLinecap="round"
-										strokeLinejoin="round"></path>
-								</svg>
-							</button>
-						</div>
-					</div>
+					<input 
+					    type="text"
+                        placeholder="Search for a product or brand..."
+                        id="inputsearch"
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        onKeyDown={(e) => {
+                            if (e.key === "Enter") {
+                                handleSearch();
+                            }
+                        }}
+                    />
+                    <div>
+                        <button id="search_btn" onClick={handleSearch}>
+                    <svg
+                        width="22"
+                        height="22"
+                        border="none"
+                        viewBox="0 0 24 24"
+                        stroke="black"
+                        fill="white"
+                    >
+                    <title>Search</title>
+                    <path
+                        d="M22 22l-6.344-6.344M10 18a8 8 0 100-16 8 8 0 000 16z"
+                        stroke="inherit"
+                        fill="white"
+                        strokeWidth="2"
+                        strokeMiterlimit="0"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                     ></path>
+                     </svg>
+                     </button>
+                     </div>
+                    </div>
+
+
 
 					<div id="logos">
 						<div
