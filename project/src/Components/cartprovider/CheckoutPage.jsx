@@ -1,6 +1,8 @@
 import { Link, useNavigate } from "react-router-dom";
 import { Footer } from "../Footer";
 import "./CheckoutPage.css";
+import React from 'react';
+
 export const CheckoutPage = () => {
 	const navigate = useNavigate();
 	return (

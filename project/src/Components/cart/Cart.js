@@ -4,6 +4,7 @@ import { ContextCart } from "./ContextCart";
 import { reducer } from "./reducer";
 import { products } from "./products";
 
+
 export const CartContext = createContext();
 const initialState = {
 	item: products,

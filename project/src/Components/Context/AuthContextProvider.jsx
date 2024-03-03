@@ -1,6 +1,7 @@
 import React, { createContext, useState } from "react";
 export const AuthContext = createContext();
 
+
 export default function AuthContextProvider({ children }) {
 	const userToken = JSON.parse(localStorage.getItem("userToken")) || false;
 	const [isAuth, setIsAuth] = useState(userToken);

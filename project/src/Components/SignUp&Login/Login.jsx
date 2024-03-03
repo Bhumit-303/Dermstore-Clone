@@ -30,7 +30,8 @@ export const Login = () => {
 		if (isAuth) {
 			navigate("/");
 		}
-	}, [isAuth]);
+	}, [isAuth, navigate]);
+
 
 	console.log("userData", userData);
 

@@ -1,10 +1,11 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { Footer } from "../Footer";
 import Navbar from "../Navbar/Navbar";
 import { Category } from "./Category";
 import "./product.css";
+
 
 export const ProductPage = () => {
 	const [items, setItems] = useState([]);
@@ -87,7 +88,7 @@ export const ProductPage = () => {
 	}
 
 	const Sort = (e) => {
-		if (e.target.value == "LTH") {
+		if (e.target.value === "LTH") {
 			const d = [...items].sort((a, b) => {
 				return Number(a.price) - Number(b.price);
 			});
@@ -95,7 +96,7 @@ export const ProductPage = () => {
 			setItems(d);
 		}
 
-		if (e.target.value == "HTL") {
+		if (e.target.value === "HTL") {
 			const d = [...items].sort((a, b) => {
 				return Number(b.price) - Number(a.price);
 			});
@@ -103,7 +104,7 @@ export const ProductPage = () => {
 			setItems(d);
 		}
 
-		if (e.target.value == "ATZ") {
+		if (e.target.value === "ATZ") {
 			const d = [...items].sort((a, b) => {
 				return a.title > b.title ? 1 : -1;
 			});
@@ -357,6 +358,7 @@ export const ProductPage = () => {
 										<div className="ImG">
 											<img
 												src={elem.img}
+												alt = ""
 												style={{ width: "100%", height: "100%" }}
 											/>
 										</div>
