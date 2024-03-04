@@ -526,6 +526,9 @@ export default function Navbar() {
 						</div>
 					)}
 				</div>
+		
+		
+		
 				<div
 					id="drop9"
 					onMouseEnter={() => {
@@ -569,6 +572,9 @@ export default function Navbar() {
 							))}
 						</div>
 					)}
+
+
+					
 				</div>
 				<div id="drop10">
 					<Link to="" className="link">
